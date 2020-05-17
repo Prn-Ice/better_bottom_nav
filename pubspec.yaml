@@ -36,7 +36,7 @@ dependencies:
   get_it: ^4.0.2
   mime: ^0.9.6+3
   hive: ^1.4.1+1
-  get: ^1.17.3
+  get: ^2.5.6
   dio: ^3.0.9
 
   # UI Utilities
@@ -49,6 +49,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  dartx: ^0.3.0
 
   flutter_launcher_icons: ^0.7.5
   built_value_generator: ^7.1.0
